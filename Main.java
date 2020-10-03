@@ -17,13 +17,21 @@ public class Main {
     System.out.println("Please enter in two integers, on seperate lines, to divide.");
 
     //Get the users first integer
-    int firstInteger = input.nextInt();
+    int firstIn = input.nextInt();
 
     //Get the users second integer
-    int secondInteger = input.nextInt();
+    int secondIn = input.nextInt();
 
-    //
-    int pink = firstInteger % secondInteger;
+    //Determine variable and calculate the quotient
+    int quotient = firstIn / secondIn;
+
+    //Determine variable and calculate the remainder
+    int remainder = firstIn % secondIn;
+
+    //Display the final answer and remainder 
+    System.out.println (firstIn + "/" + secondIn + " is " + quotient + " with a remainder of " + remainder + ".");
+
+
 
     
   }
